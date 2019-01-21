@@ -1,0 +1,36 @@
+.b-btn {
+    line-height: 32px;
+
+    border: none;
+    border-radius: 3px;
+    color: #42526e;
+    background: #f4f5f7;
+}
+
+.b-btn + .b-btn {
+    margin-left: 8px;
+}
+
+.b-task {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    max-width: 1280px;
+    margin: auto;
+}
+
+.b-task__description {
+    width: 800px;
+    padding-right: 64px;
+}
+
+.b-task__subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.b-task__widgets {
+    width: 320px;
+}
